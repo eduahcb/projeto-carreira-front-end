@@ -1,0 +1,51 @@
+body{
+    font-family: 'Opens Sans', sans-serif;
+}
+.cabecalho{
+    background-image: url('../img/destaque.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;
+}
+.cabecalho .navbar{
+    height: 100%;
+}
+.navbar .navbar-list{
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+.navbar-list-itens{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-list-itens a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    padding: .6em;
+    border-radius: 4px;
+}
+
+@media(min-width: 700px){
+    .navbar-list-itens{
+        width: 40%;
+    }
+}
+
+@media(min-width: 768px){
+    .navbar-list-itens{
+        width: 30%;
+    }
+}
+
+@media(min-width: 1024px){
+    .navbar-list-itens{
+        width: 20%;
+    }
+}
