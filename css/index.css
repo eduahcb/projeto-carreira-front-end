@@ -87,9 +87,58 @@
     font-size: 1.2em;
     line-height: 2;
 }
+.palestrantes{
+    background-color: #f17e50;
+}
+.sobre-palestra{
+    text-align: center;
+}
+.sobre-palestra #titulo-palestra,
+.sobre-palestra #subtitulo-palestra{
+    color: #fff;
+}
+#titulo-palestra{
+    font-size: 2.2em;
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+#subtitulo-palestra{
+    font-size: 1.3em;
+    margin-top: .5em;
+}
+.lista-palestrantes{
+    width: 100%;
+    margin-top: 1.5em;
+    text-align: center;
+}
+.palestrante{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 250px;
+    margin: 1em auto;
+    padding: 1em;
+}
+.img-palestrante{
+    max-width: 100%;
+    border-radius: 100%;
+}
+.nome-palestrante{
+    padding-top: .5em;
+    font-size: 1.3em;
+}
+.descricao-palestrante{
+    font-weight: bold;
+    margin: 1em 0;
+    font-size: 1.2em;
+}
 @media(min-width: 600px ){
     .navbar-list-itens{
         width:40%;
+    }
+    .lista-palestrantes{
+        display: flex;
+        align-items: flex-start;
+        flex-flow: row wrap;
     }
 }
 
