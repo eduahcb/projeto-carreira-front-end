@@ -15,10 +15,10 @@
         <nav class="navbar">
             <ul class="navbar-list">
                 <li class="navbar-list-itens">
-                    <a href="#">sobre</a>
+                    <a href="#secao-sobre" id="btn-sobre">sobre</a>
                 </li>
                 <li class="navbar-list-itens">
-                    <a href="#">palestrantes</a>
+                    <a href="#secao-palestrantes" id="btn-palestrantes">palestrantes</a>
                 </li>
             </ul>
         </nav>
@@ -28,11 +28,11 @@
                 <h2 id="subtitulo-destaque">30maio|Rio</h2>
             </section>
             <section class="inscricao">
-                <a href="#">inscreva-se</a>
+                <a href="#secao-formulario">inscreva-se</a>
             </section>
         </div>
     </header>
-    <section class="sobre">
+    <section id="secao-sobre" class="sobre">
         <div class="container">
             <div>
                 <h2 id="titulo">Muito Conteudo: do Front ao Back-end</h1>
@@ -46,7 +46,7 @@
             </div>
         </div>
     </section>
-    <section class="palestrantes">
+    <section id="secao-palestrantes" class="palestrantes">
         <div class="container">
             <div class="sobre-palestra">
                 <h2 id="titulo-palestra">Palestrantes</h2>
@@ -107,7 +107,7 @@
             </ul>
         </div>
     </section>
-    <section class="sobre-formulario">
+    <section id="secao-formulario" class="sobre-formulario">
         <div class="container">
             <div class="div-info-formulario">
                 <h2 id="titulo-formulario">seus dados</h2>
@@ -127,6 +127,8 @@
             </form>
         </div>
     </section>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/scrollAnimation.js"></script>
 </body>
 
 </html>
